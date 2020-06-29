@@ -34,9 +34,9 @@ static void __testname()
 
 #define ASSERT(EXP) \
 do { if(EXP) { \
-    printf("PASS: %s %s %d " #EXP "\n", __FILE__, __FUNCTION__, __LINE__); \
+    printf("PASS: %s %d " #EXP "\n", __FUNCTION__, __LINE__); \
   } else { \
-    printf("FAIL: %s %s %d " #EXP "\n", __FILE__, __FUNCTION__, __LINE__); \
+    printf("FAIL: %s %d " #EXP "\n", __FUNCTION__, __LINE__); \
   } \
 } while(0)
 
