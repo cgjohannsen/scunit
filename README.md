@@ -29,4 +29,3 @@ END_SUITE
 ```
 
 The last defined macro is the ASSERT(EXP) macro, which treats EXP as a boolean and reports the pass/fail state to stdout with the function, line number, and original expression. This macro should be used in each test function.
-
